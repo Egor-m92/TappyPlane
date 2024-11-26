@@ -18,24 +18,24 @@ const ROCK_WIDTH = 64;
 const ROCK_MIN_HEIGHT = 400;
 
 
-loadSprite("plane", "/sprites/planeRed1.png");
-loadSprite("bg", "/sprites/background.png");
-loadSprite("ground", "/sprites/groundDirt.png");
-loadSprite("rock", "/sprites/rock.png");
-loadSprite("rockDown", "/sprites/rockDown.png");
-loadSprite("getReady", "/sprites/textGetReady.png");
-loadSprite("gameOver", "/sprites/textGameOver.png");
-loadSprite("tapLeft", "/sprites/tapLeft.png");
-loadSprite("tapRight", "/sprites/tapRight.png");
-loadSprite("tap", "/sprites/tapTick.png");
-loadSprite("bronzeMedal", "/sprites/medalBronze.png");
-loadSprite("silverMedal", "/sprites/medalSilver.png");
-loadSprite("goldMedal", "/sprites/medalGold.png");
-loadSprite("panel", "/sprites/UIbg.png");
+loadSprite("plane", "./sprites/planeRed1.png");
+loadSprite("bg", "./sprites/background.png");
+loadSprite("ground", "./sprites/groundDirt.png");
+loadSprite("rock", "./sprites/rock.png");
+loadSprite("rockDown", "./sprites/rockDown.png");
+loadSprite("getReady", "./sprites/textGetReady.png");
+loadSprite("gameOver", "./sprites/textGameOver.png");
+loadSprite("tapLeft", "./sprites/tapLeft.png");
+loadSprite("tapRight", "./sprites/tapRight.png");
+loadSprite("tap", "./sprites/tapTick.png");
+loadSprite("bronzeMedal", "./sprites/medalBronze.png");
+loadSprite("silverMedal", "./sprites/medalSilver.png");
+loadSprite("goldMedal", "./sprites/medalGold.png");
+loadSprite("panel", "./sprites/UIbg.png");
 
-loadSound("score", "/sounds/sfx_point.aif");
-loadSound("plane", "/sounds/vint.mp3");
-loadSound("avaria", "/sounds/avaria.mp3");
+loadSound("score", "./sounds/sfx_point.aif");
+loadSound("plane", "./sounds/vint.mp3");
+loadSound("avaria", "./sounds/avaria.mp3");
 loadFont("kenvector_future", "./font/kenvector_future.ttf");
 
 setGravity(GRAVITY);
