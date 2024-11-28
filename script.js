@@ -37,9 +37,9 @@ loadSprite("silverMedal", "sprites/medalSilver.png");
 loadSprite("goldMedal", "sprites/medalGold.png");
 loadSprite("panel", "sprites/UIbg.png");
 
-loadSound("score", "/sounds/sfx_point.aif");
-loadSound("plane", "/sounds/vint.mp3");
-loadSound("avaria", "/sounds/avaria.mp3");
+loadSound("score", "sounds/sfx_point.aif");
+loadSound("plane", "sounds/vint.mp3");
+loadSound("avaria", "sounds/avaria.mp3");
 loadFont("kenvector_future", "./font/kenvector_future.ttf");
 
 setGravity(GRAVITY);
