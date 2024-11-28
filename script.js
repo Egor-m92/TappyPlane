@@ -1,4 +1,5 @@
-/* eslint-disable no-undef */
+//import kaboom from "kaboom"
+
 kaboom({
   width: 360,
   height: 640,
